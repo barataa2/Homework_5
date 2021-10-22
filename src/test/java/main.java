@@ -29,7 +29,7 @@ public class main {
         $(byText("Female")).click();
         $(byName("preferred_pronoun")).shouldBe(Condition.hidden);
         $(by("aria-label", "Gender (optional)")).shouldBe(Condition.hidden);
-        sleep(5000);
+
 
     }
 }
