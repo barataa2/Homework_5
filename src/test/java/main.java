@@ -14,7 +14,6 @@ public class main {
         Configuration.startMaximized=true;
         Selenide.open("https://www.facebook.com/");
         $(byLinkText("Create New Account")).click();
-        sleep(2000);
         $(byName("firstname")).setValue("giorgi");
         $(byName("lastname")).setValue("baratashvili");
         $(by("aria-label", "Mobile number or email")).setValue("123456789");
